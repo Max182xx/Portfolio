@@ -2,7 +2,7 @@ import { Container, Github, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center p-10">
+    <footer className="footer footer-center p-10 justify-around flex flex-col-reverse sm:flex-row justify-center items-center space-between">
       <aside>
         <Container className="w-10 h-10 " />
         <p className="font-bold">

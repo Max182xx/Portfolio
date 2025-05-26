@@ -7,7 +7,8 @@ const aboutSections = [
   {
     id: 1,
     title: "Développeur Frontend",
-    description: "Je suis un développeur frontend avec une bonne expérience.",
+    description:
+      "Je suis un développeur frontend passionné, capable de transformer chaque idée en interface fluide, réactive et intuitive.",
     icon: <LetterText className="text-accent scale-150" />,
   },
   {
@@ -21,7 +22,7 @@ const aboutSections = [
     id: 3,
     title: "Passionné par l'UI/UX",
     description:
-      "Créer des interfaces utilisateur attrayantes et fonctionnelles est ma priorité.",
+      "Concevoir des interfaces à la fois attrayantes, ergonomiques et performantes, c’est à la fois le cœur de mon métier de développeur et mon objectif au quotidien.",
     icon: <Paintbrush className="text-accent scale-150" />,
   },
 ];

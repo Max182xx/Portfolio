@@ -3,29 +3,28 @@ import imgCSS from "../assets/techno/css.png";
 import imgJS from "../assets/techno/js.png";
 import imgREACT from "../assets/techno/react.png";
 import imgHTML from "../assets/techno/html.png";
-import imgNEXT from "../assets/techno/next-js.webp";
+import imgMySQL from "../assets/techno/MySQL.jpeg";
 import imgNODE from "../assets/techno/node-js.png";
 import imgTYPE from "../assets/techno/typescript.svg";
-import imgTAILWIND from "../assets/techno/tailwind.png";
-import imgPRISMA from "../assets/techno/prisma.webp";
+import imgPHP from "../assets/techno/imagePHP.png";
+import imgJAVA from "../assets/techno/imgjava.png";
 
 // Importe les logos
-import google from "../assets/companies/google.png";
-import meta from "../assets/companies/meta.webp";
-import amazon from "../assets/companies/amazon.png";
+import diginamic from "../assets/companies/diginamic.png";
+import aram from "../assets/companies/aram.jpg";
 import Title from "./Title";
 
 // Tableau contenant les informations sur les compétences techniques
 const skills = [
-  { id: 1, name: "HTML", image: imgHTML }, // HTML
-  { id: 2, name: "CSS", image: imgCSS }, // CSS
-  { id: 3, name: "JavaScript", image: imgJS }, // JavaScript
-  { id: 4, name: "React", image: imgREACT }, // React
-  { id: 5, name: "Node.js", image: imgNODE }, // Node.js
-  { id: 6, name: "Tailwind CSS", image: imgTAILWIND }, // Tailwind CSS
-  { id: 7, name: "TypeScript", image: imgTYPE }, // TypeScript
-  { id: 8, name: "Next.js", image: imgNEXT }, // Next.js
-  { id: 9, name: "Prisma", image: imgPRISMA }, // Prisma
+  { id: 1, name: "HTML", image: imgHTML }, 
+  { id: 2, name: "CSS", image: imgCSS }, 
+  { id: 3, name: "JavaScript", image: imgJS }, 
+  { id: 4, name: "React", image: imgREACT }, 
+  { id: 5, name: "Node.js", image: imgNODE }, 
+  { id: 6, name: "JAVA", image: imgJAVA }, 
+  { id: 7, name: "TypeScript", image: imgTYPE },
+  { id: 8, name: "MySQL", image: imgMySQL }, 
+  { id: 9, name: "PHP", image: imgPHP }, 
 ];
 
 // Tableau contenant les informations sur les expériences professionnelles
@@ -36,9 +35,9 @@ const experiences = [
     company: "Diginamic (Ecole)",
     period: "Sep 2024 - Déc 2024",
     description: [
-      "Acquérir une maîtrise du langage Java et de ses fonctionnalités afin d’optimiser les performances de l’application.",
+      "Acquérir une maîtrise du langage Java et de ses fonctionnalités afin d’optimiser les performances.",
     ],
-    image: google,
+    image: diginamic,
   },
   {
     id: 2,
@@ -48,7 +47,7 @@ const experiences = [
     description: [
       "Administration et entretien d'un site vitrine à travers l'utilisation d'un système de gestion de contenu (CMS: Wordpress).",
     ],
-    image: meta,
+    image: aram,
   },
   {
     id: 3,
@@ -56,9 +55,9 @@ const experiences = [
     company: "Diginamic (Ecole)",
     period: "Oct 2023 - Juin 2024",
     description: [
-      "Conçoit et développe des applications web en intervenant à la fois sur le frontend (interface utilisateur) et le backend (logique serveur et base de données).",
+      "Concevoir et développer des applications web en intervenant à la fois sur le front-end et le back-end.",
     ],
-    image: amazon,
+    image: diginamic,
   },
 ];
 
