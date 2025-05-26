@@ -32,34 +32,31 @@ const skills = [
 const experiences = [
   {
     id: 1,
-    role: "Software Engineer",
-    company: "Google",
-    period: "Sep 2022 - Présent",
+    role: "Développeur JAVA",
+    company: "Diginamic (Ecole)",
+    period: "Sep 2024 - Déc 2024",
     description: [
-      "Développement de nouvelles fonctionnalités pour Google Maps.",
-      "Optimisation des performances de l'application.",
+      "Acquérir une maîtrise du langage Java et de ses fonctionnalités afin d’optimiser les performances de l’application.",
     ],
     image: google,
   },
   {
     id: 2,
     role: "Fullstack Developer",
-    company: "Meta",
-    period: "Jan 2021 - Août 2022",
+    company: "ARAM (Stage)",
+    period: "Avr 2024 - Juin 2024",
     description: [
-      "Création d'une plateforme interne de collaboration pour les équipes.",
-      "Mise en place d'une architecture scalable et optimisée.",
+      "Administration et entretien d'un site vitrine à travers l'utilisation d'un système de gestion de contenu (CMS: Wordpress).",
     ],
     image: meta,
   },
   {
     id: 3,
-    role: "Frontend Developer",
-    company: "Amazon",
-    period: "Mai 2019 - Déc 2020",
+    role: "Fullstack Developer",
+    company: "Diginamic (Ecole)",
+    period: "Oct 2023 - Juin 2024",
     description: [
-      "Développement d'une interface utilisateur pour Amazon Web Services.",
-      "Implémentation des tests unitaires et E2E.",
+      "Conçoit et développe des applications web en intervenant à la fois sur le frontend (interface utilisateur) et le backend (logique serveur et base de données).",
     ],
     image: amazon,
   },
@@ -68,7 +65,7 @@ const experiences = [
 // Composant principal pour afficher les expériences professionnelles
 const Experiences = () => {
   return (
-    <div>
+    <div id="Experiences">
       <Title title="Expériences" />
 
       <div className="flex flex-col-reverse md:flex-row justify-center items-center">
@@ -115,13 +112,13 @@ const Experiences = () => {
                   {/* Affiche la période */}
                   <span className="text-sm">{experience.period}</span>
                 </div>
-                {/* Liste des descriptions détaillées */}
-                <ul className="list-disc ml-16 mt-2 ">
-                  {experience.description.map((desc, index) => (
-                    <li key={index}>{desc}</li>
-                  ))}
-                </ul>
               </div>
+              {/* Liste des descriptions détaillées */}
+              <ul className="list-disc ml-16 mt-2">
+                {experience.description.map((desc, index) => (
+                  <li key={index}>{desc}</li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>

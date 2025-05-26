@@ -3,7 +3,7 @@ import img from "../assets/Photo-Maxime.jpg";
 
 const Home = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-center md:my-32 my-10">
+    <div className="flex flex-col-reverse md:flex-row justify-center md:my-32 my-10 " id="Home">
       <div className="flex flex-col">
         <h1 className="text-5xl md:text-6xl font-bold text-center md:text-left mt-4 md:mt-0 ">
           {" "}
@@ -18,7 +18,7 @@ const Home = () => {
           propositions{" "}
         </p>
         {/** Bouton contact par mail */}
-        <a href="" className="btn btn-accent md:w-fit">
+        <a href="mailto:m.garciapro34@gmail.com" className="btn btn-accent md:w-fit">
           <Mail className="w-5 h-5" />
           Contactez-moi
         </a>
